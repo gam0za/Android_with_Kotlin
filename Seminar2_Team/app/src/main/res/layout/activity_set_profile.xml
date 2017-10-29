@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.seminar2_team.SetProfileActivity">
+<RelativeLayout
+    android:layout_marginTop="50dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:text="이전"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/image"
+        android:id="@+id/before"
+        android:layout_width="40dp"
+        android:layout_height="130dp" />
+    
+    <ImageView
+        android:src="@drawable/gudetama1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <Button
+        android:text="다음"
+        android:id="@+id/next"
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:layout_height="130dp" />
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn"
+            android:text="회원가입"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
