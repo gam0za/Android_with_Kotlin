@@ -15,12 +15,12 @@ class SubAdapter(fm:FragmentManager?):FragmentStatePagerAdapter(fm) {
     var subThird : Fourth3Fragment?=null
     var subFourth : Fourth4Fragment?=null
 
-    init {
-        this.subFirst= Fourth1Fragment()
-        this.subSecond= Fourth2Fragment()
-        this.subThird= Fourth3Fragment()
-        this.subFourth=Fourth4Fragment()
-    }
+//    init {
+//        this.subFirst= Fourth1Fragment()
+//        this.subSecond= Fourth2Fragment()
+//        this.subThird= Fourth3Fragment()
+//        this.subFourth=Fourth4Fragment()
+//    }
 
     override fun getItem(position: Int): Fragment? {
         when(position){
